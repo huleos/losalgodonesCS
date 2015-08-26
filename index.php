@@ -53,8 +53,20 @@
  *
  * NOTE: If you change these, also change the error_reporting() code below
  */
-	define('ENVIRONMENT', isset($_SERVER['CI_ENV']) ? $_SERVER['CI_ENV'] : 'development');
+$local_servers = array('localhost');
+$isLocal = in_array($_SERVER['SERVER_NAME'], $local_servers);
 
+if ($isLocal) {
+    $env = 'local';
+} else {
+    // check development word in url
+    preg_match('#/development#', $_SERVER['REQUEST_URI'], $isDevelopment);
+
+    $env = $isDevelopment ? 'development' : 'production';
+}
+
+	//define('ENVIRONMENT', isset($_SERVER['CI_ENV']) ? $_SERVER['CI_ENV'] : 'development');
+define('ENVIRONMENT', $env);
 /*
  *---------------------------------------------------------------
  * ERROR REPORTING
