@@ -11,12 +11,24 @@
 </head>
 <body>
 
-<!-- HEADER -->
-<!-- /HEADER -->
-
-<!-- CONTENT -->
-<?php $this->load->view($content); ?>
-<!-- /CONTENT -->
+<section class="element-table">
+	<div class="table-cell">
+		<div class="container">
+			<!-- HEADER -->
+			<div class="logo">
+				<a href="<?= base_url(); ?>">
+					<img src="<?= base_url(); ?>static/img/logo-los-algodones.png" alt="">
+				</a>
+			</div>
+			<!-- /HEADER -->
+			<!-- CONTENT -->
+			<div class="content">
+				<?php $this->load->view($content); ?>
+			</div>
+			<!-- /CONTENT -->
+		</div>
+	</div>
+</section>
 
 <!-- FOOTER -->
 <footer>

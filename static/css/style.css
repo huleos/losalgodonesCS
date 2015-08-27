@@ -169,33 +169,6 @@ footer{
   color: #aeaeae;
 }
 
-/*.overlay {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  opacity: 0.4;
-  left: 0;
-  background-color: #000717;
-  right: 0;
-  z-index: 1;
-  -webkit-transition: all .3s ease-in-out;
-  -moz-transition: all .3s ease-in-out;
-  -ms-transition: all .3s ease-in-out;
-  -o-transition: all .3s ease-in-out;
-  transition: all .3s ease-in-out;
+.error{
+  color: #f73213;
 }
-
-.background-layer{
-  background: url('../img/bg-los-algodones.png') no-repeat center;
-  background-size: cover;
-  position: fixed;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  z-index: 0;
-  -webkit-transition: background 700ms ease-in 0ms;
-  -moz-transition: background 700ms ease-in 0ms;
-  -o-transition: background 700ms ease-in 0ms;
-  transition: background 700ms ease-in 0ms;
-}*/

@@ -1,0 +1,67 @@
+body{
+  background-color: #f0f2f1;
+}
+
+body, table.body, h1, h2, h3, h4, h5, h6, p, td {
+	color: #525252;
+	font-family: 'Lato','Helvetica','Arial',sans-serif;
+	font-weight: normal;
+	padding: 0;
+	margin: 0;
+	text-align: left;
+  line-height: 19px;
+}
+
+body, table.body, p, td {
+  font-size: 16px;
+}
+
+table, tr, td {
+    padding: 0;
+    vertical-align: top;
+    text-align: left;
+}
+
+img{
+	border: none;
+	outline: none;
+	text-decoration: none;
+	-ms-interpolation-mode: bicubic;
+	width: auto;
+	max-width: 100%;
+	float: left;
+	clear: both;
+	display: block;
+}
+
+table.container {
+	width: 580px;
+	margin: 0 auto;
+	text-align: inherit;
+}
+
+table.row {
+    padding: 0px;
+    width: 100%;
+    position: relative;
+}
+
+.block{
+	width: 100%;
+  background: #fff;
+  border-radius: 4px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
+  padding: 40px;
+}
+
+@media only screen and (max-width: 600px) {
+	table[class="body"] img {
+    width: auto !important;
+    height: auto !important;
+  }
+
+  table[class="body"] .container {
+		width: 95% !important;
+	}
+
+}
