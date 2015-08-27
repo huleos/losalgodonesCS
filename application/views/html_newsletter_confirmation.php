@@ -37,7 +37,7 @@ style="
 									<table width="308" border="0" align="center" cellpadding="0" cellspacing="0">
 										<tr>
 											<td>
-												<img src="http://losalgodones.co/assets/img/los-algodones.png" alt="" 
+												<img src="<?= base_url(); ?>static/img/logo-los-algodones.png" alt="" 
 												style="
 														border: none;
 														outline: none;

@@ -75,10 +75,10 @@ $query_builder = TRUE;
 
 $db['default'] = array(
 	'dsn'	=> '',
-	'hostname' => '',
-	'username' => '',
-	'password' => '',
-	'database' => '',
+	'hostname' => 'localhost',
+	'username' => 'huleos_LACS',
+	'password' => '{vai.U]rDe,s',
+	'database' => 'huleos_losAlgodones_db',
 	'dbdriver' => 'mysqli',
 	'dbprefix' => '',
 	'pconnect' => FALSE,
