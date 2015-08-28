@@ -70,12 +70,9 @@ style="
 						">
 							<tr>
 								<td style="font-size: 24px;">
-									Thanks for subscription!
+									Thank you for signing in!
 								</td>
 							</tr>
-							<tr>
-									<td height="10">&nbsp;</td>
-								</tr>	
 							<tr>
 								<td>
 									<strong><?= $Cname ?></strong> your email <strong><?= $Cmail ?></strong> has been subscribed.

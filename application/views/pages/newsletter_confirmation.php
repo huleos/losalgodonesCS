@@ -1,1 +1,5 @@
-<p>Thanks for subscription <strong><?= $Cname ?></strong> your email <strong><?= $Cmail ?></strong> has been subscribed.</p>
+<div class="block">
+	<div class="text">
+		<p>Thank you <strong><?= $Cname ?></strong> , your email <strong><?= $Cmail ?></strong> has been suscribed</p>
+	</div>
+</div>

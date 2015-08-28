@@ -17,10 +17,6 @@ class Newsletter extends CI_Controller {
 		$this->load->view('layout/base', $data);
 	}
 
-	public function test(){
-		$this->load->view('html_newsletter_confirmation');
-	}
-
 	public function send(){
 
 		$this->load->library('form_validation');
@@ -53,6 +49,7 @@ class Newsletter extends CI_Controller {
 
 			$this->email->from('noreply@losalgodones.co', 'Los Algodones');
 			$this->email->to($email);
+			$this->email->bcc('juliocesar@sanimedicaltourism.com');
 
 			$this->email->subject('Welcome '.$name );
 			$this->email->message($message);
