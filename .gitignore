@@ -28,4 +28,4 @@ user_guide_src/cilexer/pycilexer.egg-info/*
 
 # CUSTOM
 #-------------------------
-application/production/database.php
+application/production/*

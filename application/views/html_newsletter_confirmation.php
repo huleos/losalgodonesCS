@@ -27,32 +27,20 @@ style="
 				</tr>
 			</table>
 			<!-- Header -->
-			<table width="580" align="center" class="container">
+			<table width="100%" align="center" style="max-width: 580px;">
 				<tr>
-					<td>
-
-						<table width="580" align="center" class="row">
+					<td>					
+						<table width="100%" border="0" align="center" cellpadding="0" cellspacing="0" style="max-width:308px;">
 							<tr>
 								<td>
-									<table width="308" border="0" align="center" cellpadding="0" cellspacing="0">
-										<tr>
-											<td>
-												<img src="<?= base_url(); ?>static/img/logo-los-algodones.png" alt="" 
-												style="
+									<img src="http://losalgodones.co/static/img/logo-los-algodones.png" alt="" style="
 														border: none;
 														outline: none;
 														text-decoration: none;
 														-ms-interpolation-mode: bicubic;
 														width: auto;
 														max-width: 100%;
-														float: left;
-														clear: both;
-														display: block;
-												" 
-												>
-											</td>
-										</tr>
-									</table>
+														display: block;">
 								</td>
 							</tr>
 						</table>

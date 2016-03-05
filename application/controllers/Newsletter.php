@@ -22,7 +22,7 @@ class Newsletter extends CI_Controller {
 		$this->load->library('form_validation');
 
 		$this->form_validation->set_rules('name', 'Name', 'trim|required');
-		$this->form_validation->set_rules('email', 'Email Address', 'trim|required|valid_email');
+		$this->form_validation->set_rules('email', 'Email Address', 'trim|required|valid_email|is_unique');
 
 		if ($this->form_validation->run() == FALSE) {
 			
